@@ -281,7 +281,7 @@ img.card-img-top {
 
 /* ------ BANNER HERO ------ */
 .section1 {
-    background: url(/images/collaborations-image/banner-collaborations.png);
+    background: url(../images/collaborations-image/banner-collaborations.png);
     background-size: 100%;
     padding: 20px;
     background-repeat: no-repeat;
@@ -289,7 +289,7 @@ img.card-img-top {
 }
 
 .section2 {
-    background: url(/images/trajectory-image/banner-trajectory.png);
+    background: url(../images/trajectory-image/banner-trajectory.png);
     background-size: 100%;
     padding: 20px;
     background-repeat: no-repeat;
