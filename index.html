@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./images/favicon/android-chrome-192x192.png">
+  <link rel="manifest" href="./images/favicon/site.webmanifest">
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script type="text/javascript" src="script/main.js"></script>
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <title>Michael Jordan</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+      <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+        <span class="material-icons">&#9776;</span>
+      </button>
+      <a href="index.html"><img class="logo-menu" src="images/logo/jordan-logo-menu.png" alt="jordan logo"></a>
+      <ul class="navbar-menu">
+        <li><a class="active" href="./index.html">Inicio</a></li>
+        <li><a href="./pages/trajectory.html">Trayectoria</a></li>
+        <li><a href="./pages/collaborations.html">Colaboraciones</a></li>
+        <li><a href="./pages/gallery.html">Galeria</a></li>
+        <li><a class="right" href="./pages/contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm">
+          <h1>Michael Jordan</h1>
+          <p>
+            Michael Jordan es uno de los jugadores de baloncesto más famosos y exitosos de todos los tiempos. Nació
+            el 17 de febrero de 1963 en Brooklyn, Nueva York, pero creció en Wilmington, Carolina del Norte. <br> Jordan
+            es
+            conocido por su impresionante carrera en la NBA, en la que lideró a los Chicago Bulls a seis
+            campeonatos y fue nombrado cinco veces MVP de la NBA. También representó a Estados Unidos en dos Juegos
+            Olímpicos, ganando medallas de oro en 1984 en Los Ángeles y en 1992 en Barcelona.
+          </p>
+        </div>
+        <div class="col-sm">
+          <img class="imagenesEstilo" src="images/michaelJordan/michaeljordan2019.jpg" alt="Michael Jordan">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <img class="imagenesEstilo" src="images/michaelJordan/mjchicagobulls.jpg" alt="Michael Jordan en partido">
+        </div>
+        <div class="col-sm">
+          <p>
+            Después de retirarse del baloncesto, Jordan se convirtió en propietario y presidente de los Washington
+            Wizards, y también se convirtió en propietario minoritario de los Charlotte Bobcats, que ahora son los
+            Hornets.<br>
+            Además de su carrera en el baloncesto, Jordan también ha sido exitoso como empresario y promotor de marcas,
+            incluida la marca de ropa deportiva Jordan, propiedad de Nike.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="carouselExampleControls" class="carousel carousel-dark slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="cards-wrapped">
+                  <div class="card">
+                    <img src="images/carousel-inicio/1-familiajordan.png" class="card-img-top"
+                      alt="Familia de Michael Jordan">
+                    <div class="card-body">
+                      <p class="card-text">Michael junto a sus padres, hermanos y hermanas.</p>
+                    </div>
+                  </div>
+                  <div class="card d-none d-sm-block">
+                    <img src="images/carousel-inicio/2-michaeljordannino.png" class="card-img-top"
+                      alt="Michael Jordan de niño">
+                    <div class="card-body">
+                      <p class="card-text">Michael Jordan de niño.</p>
+                    </div>
+                  </div>
+                  <div class="card d-none d-sm-block">
+                    <img src="images/carousel-inicio/3-mjencarolinadelnorte.png" class="card-img-top"
+                      alt="Jordan jugando para Carolina del Norte 1982">
+                    <div class="card-body">
+                      <p class="card-text">Campeon en la Universidad de Carolina del Norte en 1982.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="cards-wrapped">
+                  <div class="card">
+                    <img src="images/carousel-inicio/4-hijosdemj.png" class="card-img-top"
+                      alt="Foto de los hijos de Jordan actualmente">
+                    <div class="card-body">
+                      <p class="card-text">Marcus, Jeffrey y Jasmine junto a su padre Michael.</p>
+                    </div>
+                  </div>
+                  <div class="card d-none d-sm-block">
+                    <img src="images/carousel-inicio/5-arobasket.png" class="card-img-top" alt="aro de Basket">
+                    <div class="card-body">
+                      <p class="card-text">Aro de basket que instalo su padre detras de la casa para que pudiera
+                        practicar junto con su hermano Larry.</p>
+                    </div>
+                  </div>
+                  <div class="card d-none d-sm-block">
+                    <img src="images/carousel-inicio/6-mjbaseball.png" class="card-img-top"
+                      alt="Jordan jugando Baseball">
+                    <div class="card-body">
+                      <p class="card-text">Jugando Baseball para los Birmingham Barons en 1994.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </main>
+  
+<footer>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm">
+        <div class="legal-footer">
+          <span> ©2023 Pagina sin fines de lucro </span>
+        </div>
+      </div>
+      <div class="col-sm">
+        <a href="index.html"><img class="logo-footer" src="images/logo/jordan-logo-menu.png" alt="jordan logo"></a>
+      </div>
+      <div class="col-sm">
+        <div class="botones-footer">
+          <a href=""><img class="redes-footer" src="images/footer-redes/github-blanco.png" alt="github logo"></a>
+          <a href=""><img class="redes-footer" src="images/footer-redes/linkedin-blanco.png" alt="linkedin logo"></a>
+          <a href=""><img class="redes-footer" src="images/footer-redes/instagram-blanco.png" alt="instagram logo"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+
+</html>

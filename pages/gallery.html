@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../images/favicon/android-chrome-192x192.png">
+  <link rel="manifest" href="../images/favicon/site.webmanifest">
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script type="text/javascript" src="../script/main.js"></script>
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <title>Michael Jordan</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+      <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+        <span class="material-icons">&#9776;</span>
+      </button>
+      <a href="../index.html"><img class="logo-menu" src="../images/logo/jordan-logo-menu.png" alt="jordan logo"></a>
+      <ul class="navbar-menu">
+        <li><a class="active" href="../index.html">Inicio</a></li>
+        <li><a href="./trajectory.html">Trayectoria</a></li>
+        <li><a href="./collaborations.html">Colaboraciones</a></li>
+        <li><a href="./gallery.html">Galeria</a></li>
+        <li><a class="right" href="./contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="h1-gallery">Imagenes Destacadas</h1>
+    <div class="container text-center">
+      <div class="row row-cols-1">
+        <div class="col-12">
+          <div id="carouselExampleControls" class="carousel carousel-dark slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="cards-wrapped">
+                  <div class="card">
+                    <img src="/images/gallery-images/1-mj-slamdunk.png" class="card-img-top"
+                      alt="Michael Jordan realizando un Dunk">
+                    <div class="card-body">
+                      <p class="card-text">Michael Jordan saltando desde la linea de tiros libres para un concurso de
+                        Slam Dunk en 1988.</p>
+                    </div>
+                  </div>
+                  <div class="card d-none d-md-block">
+                    <img src="/images/gallery-images/2-mj-carolinadelnorte.png" class="card-img-top"
+                      alt="Michael Jordan en Carolina del Norte">
+                    <div class="card-body">
+                      <p class="card-text">Michael Jordan sacando un rebote en un juego de ACC contra Virginia en 1982,
+                        destacando por ser un estudiante de primer año y anotando 13.5 puntos.</p>
+                    </div>
+                  </div>
+                  <div class="card d-none d-md-block">
+                    <img src="/images/gallery-images/3-mj-gokarts.png" class="card-img-top"
+                      alt="Michael Jordan manejando un Kart">
+                    <div class="card-body">
+                      <p class="card-text">Michael Jordan conduciendo karts en Orlando Woolridge junto a sus compañeros
+                        del equipo Bulls Rod Higgins en 1984.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="cards-wrapped">
+                  <div class="card">
+                    <img src="/images/gallery-images/4-mj-lenguafuera.png" class="card-img-top"
+                      alt="Michael Jordan sacando la lengua">
+                    <div class="card-body">
+                      <p class="card-text">Michael Jordan entrando a la cancha en su temporada de
+                        novato, tomando el habito de su padre sacando la lengua cuando estaba absorto jugando.</p>
+                    </div>
+                  </div>
+                  <div class="card d-none d-md-block">
+                    <img src="/images/gallery-images/5-mj-firmas.png" class="card-img-top"
+                      alt="Michael Jordan dando autografos">
+                    <div class="card-body">
+                      <p class="card-text">Chicos buscando un autografo de Michael Jordan en un campamento
+                        de Basket en 1987. Tras su exito, se convirtio rapidamente en una de las estrellas
+                        importantes de la NBA.</p>
+                    </div>
+                  </div>
+                  <div class="card d-none d-md-block">
+                    <img src="/images/gallery-images/6-mj-alturajugadores.png" class="card-img-top"
+                      alt="Diferencia de altura entre Jordan y Bogues">
+                    <div class="card-body">
+                      <p class="card-text">Muggsy Bogues(5.3"/1.61cm) junto a Michael Jordan(6.5"/1.98cm) en un partido
+                        entre Chicago Bulls y los Charlotte Hornets en 1989.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-12">
+          <div id="carouselExampleControls" class="carousel carousel-dark slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="cards-wrapped">
+                  <div class="card">
+                    <img src="/images/gallery-images/7-mj-anillosolimpicos.png" class="card-img-top"
+                      alt="Equipo Dream Team de ee.uu. en los juegos olimpicos">
+                    <div class="card-body">
+                      <p class="card-text">El equipo "Dream Team" de EE. UU. para los juegos olimpicos en 1991,
+                        compuesto por Michael Jordan, Patrick Ewing, Magic Johnson, Karl Malone y Charles Barkley.</p>
+                    </div>
+                  </div>
+                  <div class="card d-none d-md-block">
+                    <img src="/images/gallery-images/8-mj-slamdunklengua.png" class="card-img-top"
+                      alt="Michael Jordan realizando un Dunk sacando la lengua">
+                    <div class="card-body">
+                      <p class="card-text">Jordan haciendo un Dunk contra Detroit en el juego 4 de las Finales de la
+                        conferencia Este en 1991.</p>
+                    </div>
+                  </div>
+                  <div class="card d-none d-md-block">
+                    <img src="/images/gallery-images/9-mj-llorando.png" class="card-img-top"
+                      alt="Jordan llorando despues de ganar">
+                    <div class="card-body">
+                      <p class="card-text">Michael Jordan llorando despues de recibir el trofeo tras ganarle a los
+                        Lakers y llevarse el triunfo junto a los Bulls en 1991.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="cards-wrapped">
+                  <div class="card">
+                    <img src="/images/gallery-images/10-mj-baseball.png" class="card-img-top"
+                      alt="Jordan jugando Baseball para White Fox">
+                    <div class="card-body">
+                      <p class="card-text">Despues de retirarse del Basketball en 1994, Michael Jordan firmo con los
+                        White Fox por el sueño de su padre de tener un hijo beisbolista luego de su reciente muerte.</p>
+                    </div>
+                  </div>
+                  <div class="card d-none d-md-block">
+                    <img src="/images/gallery-images/11-mj-saludandofans.png" class="card-img-top"
+                      alt="Jordan saludando al publico luego de ganar">
+                    <div class="card-body">
+                      <p class="card-text">Michael Jordan chocando los cinco con los fanaticos luego de agarrar el
+                        trofeo en la final de la NBA de 1997 siendo el quinto campeonato ganado en su carrera y tambien
+                        nombrado MVP.</p>
+                    </div>
+                  </div>
+                  <div class="card d-none d-md-block">
+                    <img src="/images/gallery-images/12-mj-retrato.png" class="card-img-top"
+                      alt="Retrato de Jordan luego de su retiro">
+                    <div class="card-body">
+                      <p class="card-text">Michael Jordan posando para un retrato en 2008 luego de retirarse
+                        definitivamente de su carrera como jugador 5 años despues.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <h1 class="h1-gallery">Videos Destacados</h1>
+      <div class="container text-center">
+        <div class="row row-cols-3">
+          <div class="col">
+            <iframe class="video-gallery" src="https://www.youtube.com/embed/jbW4f60dCNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="col">
+            <iframe class="video-gallery" src="https://www.youtube.com/embed/8ZZR3HIDFe0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="col">
+            <iframe class="video-gallery" src="https://www.youtube.com/embed/rzQAC8kPJxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="col">
+            <iframe class="video-gallery" src="https://www.youtube.com/embed/wya_XpCdi0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="col">
+            <iframe class="video-gallery" src="https://www.youtube.com/embed/Zn6kiimEsYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="col">
+            <iframe class="video-gallery" src="https://www.youtube.com/embed/tWvdli5SM7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="legal-footer">
+                        <span> ©2023 Pagina sin fines de lucro </span>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <a href="../index.html"><img class="logo-footer" src="/images/logo/jordan-logo-menu.png"
+                            alt="jordan logo"></a>
+                </div>
+                <div class="col-sm">
+                    <div class="botones-footer">
+                        <a href=""><img class="redes-footer" src="/images/footer-redes/github-blanco.png"
+                                alt="github logo"></a>
+                        <a href=""><img class="redes-footer" src="/images/footer-redes/linkedin-blanco.png"
+                                alt="linkedin logo"></a>
+                        <a href=""><img class="redes-footer" src="/images/footer-redes/instagram-blanco.png"
+                                alt="instagram logo"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
